@@ -3,16 +3,10 @@
 ![Traversal Navigation Data Plugin](Doc/TraversalNavigationDataPlugin.png)
 
 This plugin provides a system for baking, querying, and using traversal navigation segment data generated from the NavMesh. It is designed to support traversal gameplay features such as ledge grabs, vaults, and other navigation-based traversal actions.
-
+These segments can be queried at runtime and integrated directly into character traversal logic.
 ---
 
-## 1. Traversal Navigation Data Plugin
-
-The Traversal Navigation Data Plugin extends Unreal Engine navigation by generating **Traversal Segments** from NavMesh edges. These segments can be queried at runtime and integrated directly into character traversal logic.
-
----
-
-## 2. Building Traversal Navigation Data
+## 1. Building Traversal Navigation Data
 
 To generate traversal navigation segments:
 
@@ -37,7 +31,7 @@ TraversalNavData.ToggleDebug
 
 ---
 
-## 3. Traversal NavData Settings
+## 2. Traversal NavData Settings
 
 Traversal navigation generation and debug settings can be configured via plugin settings.
 
@@ -47,7 +41,7 @@ Traversal navigation generation and debug settings can be configured via plugin 
 
 ---
 
-## 4. Traversal NavSegment Generation Validator
+## 3. Traversal NavSegment Generation Validator
 
 The **Traversal NavSegment Generation Validator** is responsible for validating NavMesh edges and generating traversal segments.
 
@@ -93,7 +87,7 @@ Custom validators can override the following functions:
 
 ---
 
-## 5. Traversal NavData Subsystem
+## 4. Traversal NavData Subsystem
 
 The **Traversal NavData Subsystem** provides runtime access to traversal navigation segment data and allows extending that data during gameplay.
 
@@ -117,7 +111,7 @@ The **Traversal NavData Subsystem** provides runtime access to traversal navigat
 
 ---
 
-## 6. Traversal Nav Segment Data
+## 5. Traversal Nav Segment Data
 
 
 
@@ -141,7 +135,7 @@ The **Traversal NavData Subsystem** provides runtime access to traversal navigat
 
 ---
 
-## 7. Game Animation Sample Integration
+## 6. Game Animation Sample Integration
 
 To integrate traversal navigation segments with the **Game Animation Sample**:
 
@@ -160,6 +154,6 @@ This setup enables the sample character to utilize traversal navigation segment 
 
 ---
 
-## 8. Debug Nodes
+## 7. Debug Nodes
 
 ![Debug Nodes](Doc/Debug.png)
