@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Traversal Navigation Data",
+	"Description": "Unreal Engine plugin for generating, storing, and querying traversal segments data.",
+	"Category": "Navigation",
+	"CreatedBy": "Elhoussine Mehnik",
+	"CreatedByURL": "https://twitter.com/HoussineMehnik",
+	"DocsURL": "https://unrealengineresources.com/traversal-navigation-data",
+	"MarketplaceURL": "https://unrealengineresources.com/plugins",
+	"SupportURL": "mailto:ue4resources@gmail.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TraversalNavData",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "TraversalNavDataEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
